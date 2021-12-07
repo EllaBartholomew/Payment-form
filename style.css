@@ -1,0 +1,44 @@
+.credit{
+    display:flex;
+    width: 100%;
+    /*justify-content: space-evenly;*/
+}
+/*option:disabled {*/
+body{
+    display:flex;
+    text-align:center;
+}
+#survey-form{
+    background-color:#767280;
+    color:white;
+    padding: 30px;
+    max-width: 40vw;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+.credit>div{
+    margin-right: 20px;
+}
+
+button{
+    background-color:#C4C4C4;
+    text-color:black;
+}
+
+#radioGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+#radioBtns{
+    margin-top:-12px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
